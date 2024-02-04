@@ -1,0 +1,74 @@
+---
+const {name} = Astro.params;
+
+
+import Layout from "../../layouts/Layout.astro";
+import Back from "../../components/Back.astro";
+
+let llista = await fetch(
+`https://pokeapi.co/api/v2/pokemon/${name}`)
+.then((respuesta)=> respuesta.json());
+
+console.log(llista);
+
+import diccionario from "../../data/descripcion.json" with { type: "json" };
+
+let nameMayus = llista.name.toUpperCase();
+let peso = llista.weight/10;
+let altura = llista.height/10;
+---
+<Layout>
+    <Back url="/"> </Back>
+    <br />
+    <div id="centrador" class="flex items-center justify-center">
+      <div id="caja-blanca" class="flex flex-col items-center bg-white rounded-lg max-w-2xl mx-auto p-4">
+        
+        <h1 class="text-4xl mb-4 ">{nameMayus} &nbsp;<span class="text-gray-500">N.º 00{llista.id}</span></h1>
+  
+        <div class="flex items-center justify-center p-4 rounded-lg">
+          <img class="w-72 bg-gray-200 rounded-lg" src={llista.sprites.other["official-artwork"].front_default}>
+          <div class="ml-4">
+            {diccionario.map((pokemon) => {
+              if (pokemon.num === llista.id) {
+                return (
+                  <p class="text-xl my-2 p-2 rounded-lg" key={pokemon.num}>
+                    {pokemon.pokedex_description}
+                  </p>
+                );
+              }
+              return null;
+            })}
+            <h1 class="flex justify-center items-center my-1 bg-gray-800 text-white rounded-full">
+              {diccionario.map((pokemon) => {
+                if (pokemon.num === llista.id) {
+                  return (
+                    <p class="my-2  rounded-lg" key={pokemon.num}> Tipo:
+                      {pokemon.type_1}  {pokemon.type_2}
+                    </p>
+                    );
+              }
+              return null;
+            })}
+
+            </h1>
+            <h1 class="flex justify-center items-center my-1 bg-sky-800 text-white p-2 rounded-full">Peso: {peso} kg</h1>
+            <h1 class="flex justify-center items-center my-1 bg-sky-800 text-white p-2 rounded-full">Altura: {altura} m</h1>
+            <h1 class="flex justify-center items-center my-1 bg-red-800 text-white p-2 rounded-full">Habilidades: {llista.abilities.map((x) => x.ability.name)}</h1>
+            
+            
+          </div>
+        </div>
+  
+        <div id="sprites" class="bg-teal-100 flex justify-content justify-center mx-auto mt-1 w-full p-4 rounded-lg">
+          <img class=" rounded-full w-1000 h-1000 mr-2" style="max-width: 500px; min-width: 200px" src={llista.sprites.front_default}>
+          <img class=" rounded-full w-200 h-200" style="max-width: 500px; min-width: 200px" src={llista.sprites.back_default}>
+        </div>
+  
+      </div>
+    </div>
+  </Layout>
+  
+
+
+
+

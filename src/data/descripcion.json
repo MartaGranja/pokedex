@@ -1,0 +1,651 @@
+[
+  {
+    "num": 1,
+    "pok_name": "bulbasaur",
+    "pokedex_description": "Una extraña semilla fue plantada en su espalda al nacer. La planta brota y crece con este Pokémon.",
+    "type_1": "Planta",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 2,
+    "pok_name": "ivysaur",
+    "pokedex_description": "Cuando el capullo en su espalda comienza a hincharse, un dulce aroma indica que la flor está a punto de florecer.",
+    "type_1": "Planta",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 3,
+    "pok_name": "venusaur",
+    "pokedex_description": "La planta florece cuando está absorbiendo energía solar. Se mueve constantemente en busca de luz solar.",
+    "type_1": "Planta",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 4,
+    "pok_name": "charmander",
+    "pokedex_description": "La llama en la punta de su cola suena mientras arde. Solo puedes escucharla en lugares tranquilos.",
+    "type_1": "Fuego"
+  },
+  {
+    "num": 5,
+    "pok_name": "charmeleon",
+    "pokedex_description": "Cuando balancea su cola ardiente, eleva la temperatura a niveles insoportablemente altos.",
+    "type_1": "Fuego"
+  },
+  {
+    "num": 6,
+    "pok_name": "charizard",
+    "pokedex_description": "Escupe fuego lo suficientemente caliente como para derretir rocas. Conocido por causar incendios forestales involuntariamente.",
+    "type_1": "Fuego",
+    "type_2": "Volador"
+  },
+  {
+    "num": 7,
+    "pok_name": "squirtle",
+    "pokedex_description": "Después del nacimiento, su espalda se hincha y se endurece en un caparazón. Rocía espuma poderosamente desde su boca.",
+    "type_1": "Agua"
+  },
+  {
+    "num": 8,
+    "pok_name": "wartortle",
+    "pokedex_description": "A menudo se esconde en el agua para acechar presas desprevenidas. Para nadar rápido, mueve sus orejas para mantener el equilibrio.",
+    "type_1": "Agua"
+  },
+  {
+    "num": 9,
+    "pok_name": "blastoise",
+    "pokedex_description": "Un Pokémon brutal con chorros de agua a presión en su caparazón. Se utilizan para ataques de alta velocidad.",
+    "type_1": "Agua"
+  },
+  {
+    "num": 10,
+    "pok_name": "caterpie",
+    "pokedex_description": "Sus patas cortas están equipadas con ventosas que le permiten trepar incansablemente por pendientes y paredes.",
+    "type_1": "Bicho"
+  },
+  {
+    "num": 11,
+    "pok_name": "metapod",
+    "pokedex_description": "Este Pokémon es vulnerable a los ataques mientras su caparazón es suave, exponiendo su cuerpo débil y tierno.",
+    "type_1": "Bicho"
+  },
+  {
+    "num": 12,
+    "pok_name": "butterfree",
+    "pokedex_description": "En la batalla, agita sus alas a gran velocidad para liberar polvo altamente tóxico en el aire.",
+    "type_1": "Bicho",
+    "type_2": "Volador"
+  },
+  {
+    "num": 13,
+    "pok_name": "weedle",
+    "pokedex_description": "A menudo se encuentra en bosques y praderas. Tiene una púa tóxica afilada de alrededor de dos pulgadas en la parte superior de su cabeza.",
+    "type_1": "Bicho",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 14,
+    "pok_name": "kakuna",
+    "pokedex_description": "Casi incapaz de moverse, este Pokémon solo puede endurecer su caparazón para protegerse de los depredadores.",
+    "type_1": "Bicho",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 15,
+    "pok_name": "beedrill",
+    "pokedex_description": "Vuela a gran velocidad y ataca usando sus grandes aguijones venenosos en sus patas delanteras y cola.",
+    "type_1": "Bicho",
+    "type_2": "Veneno"
+  },
+  {
+    "num": 16,
+    "pok_name": "pidgey",
+    "pokedex_description": "Una vista común en bosques y campos. Aletea sus alas a nivel del suelo para levantar arena cegadora.",
+    "type_1": "Normal",
+    "type_2": "Volador"
+  },
+  {
+    "num": 17,
+    "pok_name": "pidgeotto",
+    "pokedex_description": "Este Pokémon rebosa vitalidad. Vuela constantemente alrededor de su gran territorio en busca de presas.",
+    "type_1": "Normal",
+    "type_2": "Volador"
+  },
+  {
+    "num": 18,
+    "pok_name": "pidgeot",
+    "pokedex_description": "Extiende sus magníficas alas ampliamente para intimidar a los enemigos. Vuela a través de los cielos a velocidad Mach-2.",
+    "type_1": "Normal",
+    "type_2": "Volador"
+  },
+  {
+    "num": 19,
+    "pok_name": "rattata",
+    "pokedex_description": "Muerde cualquier cosa cuando ataca. Pequeño y muy rápido, es una vista común en muchos lugares.",
+    "type_1": "Normal"
+  },
+  {
+    "num": 20,
+    "pok_name": "raticate",
+    "pokedex_description": "Utiliza sus bigotes para mantener su equilibrio. Al parecer, se ralentiza si se le cortan.",
+    "type_1": "Normal"
+  },
+  {
+    "num": 21,
+    "pok_name": "spearow",
+    "pokedex_description": "Come insectos en áreas cubiertas de hierba. Tiene que aletear sus alas cortas a gran velocidad para mantenerse en el aire.",
+    "type_1": "Normal",
+    "type_2": "Volador"
+  },
+  {
+    "num": 22,
+    "pok_name": "fearow",
+    "pokedex_description": "Con sus alas enormes y magníficas, puede mantenerse en el aire sin tener que aterrizar para descansar.",
+    "type_1": "Normal",
+    "type_2": "Volador"
+  },
+  {
+    "num": 23,
+    "pok_name": "ekans",
+    "pokedex_description": "Se mueve silenciosa y sigilosamente. Come los huevos de aves, como Pidgey y Spearow, enteros.",
+    "type_1": "Veneno"
+  },
+  {
+    "num": 24,
+    "pok_name": "arbok",
+    "pokedex_description": "El patrón en su vientre es para intimidar. Estrangula a los enemigos cuando están paralizados por el miedo.",
+    "type_1": "Veneno"
+  },
+  {
+    "num": 25,
+    "pok_name": "pikachu",
+    "pokedex_description": "Levanta la cola para revisar sus alrededores. A veces, la cola es alcanzada por un rayo en esta pose.",
+    "type_1": "Eléctrico"
+  },
+  {
+    "num": 26,
+    "pok_name": "raichu",
+    "pokedex_description": "Cuando su electricidad se acumula, sus músculos se estimulan y se vuelve más agresivo de lo habitual.",
+    "type_1": "Eléctrico"
+  },
+  {
+    "num": 27,
+    "pok_name": "sandshrew",
+    "pokedex_description": "Excava y vive bajo tierra. Si se siente amenazado, se enrolla en una bola para protegerse.",
+    "type_1": "Tierra"
+  },
+  {
+    "num": 28,
+    "pok_name": "sandslash",
+    "pokedex_description": "Se enrolla en una bola espinosa cuando se siente amenazado. Puede rodar mientras está enrollado para atacar o escapar.",
+    "type_1": "Tierra"
+  },
+  {
+    "num": 29,
+    "pok_name": "nidoran♀",
+    "pokedex_description": "Aunque es pequeño, sus púas venenosas hacen que este Pokémon sea peligroso. La hembra tiene cuernos más pequeños.",
+    "type_1": "Veneno"
+  },
+  {
+    "num": 30,
+    "pok_name": "nidorina",
+    "pokedex_description": "Al alimentar a sus crías, primero mastica y ablanda la comida, luego la escupe para que la consuman las crías.",
+    "type_1": "Veneno"
+  },
+    {
+      "num": 31,
+      "pok_name": "nidoqueen",
+      "pokedex_description": "Sus poderes son tan grandes que puede aplastar un automóvil. No siente dolor y puede cargar pesos enormes sin problemas.",
+      "type_1": "Veneno",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 32,
+      "pok_name": "nidoran-m",
+      "pokedex_description": "Posee una púa venenosa en la espalda. Se mantiene alerta durante la noche, ya que es cuando es más activo.",
+      "type_1": "Veneno"
+    },
+    {
+      "num": 33,
+      "pok_name": "nidorino",
+      "pokedex_description": "Le gusta endurecer su cuerno para atacar enemigos. Es muy agresivo y lucha ferozmente por su territorio.",
+      "type_1": "Veneno"
+    },
+    {
+      "num": 34,
+      "pok_name": "nidoking",
+      "pokedex_description": "Es un feroz combatiente que a menudo se ve involucrado en intensas peleas con otros de su especie por el liderazgo.",
+      "type_1": "Veneno",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 35,
+      "pok_name": "clefairy",
+      "pokedex_description": "Aparece en la noche de la luna llena. Canta con una voz dulce y danza a la luz de la luna para encantar a las personas.",
+      "type_1": "Hada"
+    },
+    {
+      "num": 36,
+      "pok_name": "clefable",
+      "pokedex_description": "Cuenta la leyenda que cualquier deseo expresado en su presencia se hará realidad, aunque solo sea una vez.",
+      "type_1": "Hada"
+    },
+    {
+      "num": 37,
+      "pok_name": "vulpix",
+      "pokedex_description": "Su pelaje es rojo y brillante. Se dice que tiene nueve colas y que cada una es más caliente que el fuego.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 38,
+      "pok_name": "ninetales",
+      "pokedex_description": "Cada una de sus nueve colas está imbuida con un poder sobrenatural. Se dice que vive mil años.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 39,
+      "pok_name": "jigglypuff",
+      "pokedex_description": "Cuando sus ojos enormes se iluminan, canta una melodía misteriosamente tranquilizadora que hace dormir a sus enemigos.",
+      "type_1": "Normal",
+      "type_2": "Hada"
+    },
+    {
+      "num": 40,
+      "pok_name": "wigglytuff",
+      "pokedex_description": "Convierte su pelaje en una bola de algodón esponjoso que absorbe los golpes. Es muy amable y adora cantar.",
+      "type_1": "Normal",
+      "type_2": "Hada"
+    },
+    {
+      "num": 41,
+      "pok_name": "zubat",
+      "pokedex_description": "Es difícil de detectar en la oscuridad debido a su pequeño tamaño. Se guía por ultrasonidos para volar en la noche.",
+      "type_1": "Veneno",
+      "type_2": "Volador"
+    },
+    {
+      "num": 42,
+      "pok_name": "golbat",
+      "pokedex_description": "Aunque tiene ojos pequeños, emite ultrasonidos para detectar objetos y personas. Vuela en círculos en busca de presas.",
+      "type_1": "Veneno",
+      "type_2": "Volador"
+    },
+    {
+      "num": 43,
+      "pok_name": "oddish",
+      "pokedex_description": "Durante el día, permanece inmóvil para prepararse para la fotosíntesis. Se mueve por la noche en busca de agua.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 44,
+      "pok_name": "gloom",
+      "pokedex_description": "Desprende un aroma fétido. Después de la lluvia, el aroma se vuelve más fuerte. Asegúrate de llevar una pinza nasal.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 45,
+      "pok_name": "vileplume",
+      "pokedex_description": "La flor en su cabeza se abre completamente cuando está expuesta a la luz solar fuerte. También emite esporas tóxicas.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 46,
+      "pok_name": "paras",
+      "pokedex_description": "Crece sobre su espalda un hongo parásito. Prefiere áreas húmedas y oscuras. Es perjudicial para los árboles.",
+      "type_1": "Bicho",
+      "type_2": "Planta"
+    },
+    {
+      "num": 47,
+      "pok_name": "parasect",
+      "pokedex_description": "El hongo en su espalda libera esporas que controlan mentalmente a los insectos. Los utiliza para mantener a raya a sus enemigos.",
+      "type_1": "Bicho",
+      "type_2": "Planta"
+    },
+    {
+      "num": 48,
+      "pok_name": "venonat",
+      "pokedex_description": "Sus grandes ojos sirven para visión en la oscuridad. Se alimenta de pequeños insectos que son atraídos por la luz de la luna.",
+      "type_1": "Bicho",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 49,
+      "pok_name": "venomoth",
+      "pokedex_description": "Atrapa a sus presas usando las antenas en su cabeza, las envuelve en hilo sedoso y luego las devora lentamente.",
+      "type_1": "Bicho",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 50,
+      "pok_name": "diglett",
+      "pokedex_description": "Vive bajo tierra y se mueve a gran velocidad. Es muy pequeño, por lo que es difícil de ver.",
+      "type_1": "Tierra"
+    },
+    {
+      "num": 51,
+      "pok_name": "dugtrio",
+      "pokedex_description": "Son trillizos que se originaron como una entidad única. Se dividen cuando se entusiasman o se enfadan.",
+      "type_1": "Tierra"
+    },
+    {
+      "num": 52,
+      "pok_name": "meowth",
+      "pokedex_description": "Adora los objetos circulares. Vaga por las calles por la noche para buscar monedas sueltas caídas.",
+      "type_1": "Normal"
+    },
+    {
+      "num": 53,
+      "pok_name": "persian",
+      "pokedex_description": "Elegante y hermoso, adora ser acariciado. Aprecia las cosas bellas y siempre camina con gracia.",
+      "type_1": "Normal"
+    },
+    {
+      "num": 54,
+      "pok_name": "psyduck",
+      "pokedex_description": "Siempre atormentado por dolores de cabeza. Utiliza poderes psíquicos, pero no se sabe si lo hace intencionalmente.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 55,
+      "pok_name": "golduck",
+      "pokedex_description": "Nada velozmente por el agua. Es mucho más ágil y rápido de lo que parece a simple vista.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 56,
+      "pok_name": "mankey",
+      "pokedex_description": "Es muy furioso y no puede quedarse quieto por mucho tiempo. Se enfurece con facilidad y no teme enfrentarse a enemigos más grandes.",
+      "type_1": "Lucha"
+    },
+    {
+      "num": 57,
+      "pok_name": "primeape",
+      "pokedex_description": "Cuando está enojado, crece sin control. En esta furia, se vuelve imposible de controlar para el entrenador.",
+      "type_1": "Lucha"
+    },
+    {
+      "num": 58,
+      "pok_name": "growlithe",
+      "pokedex_description": "Muy amigable y fiel a las personas. Intenta repeler a los enemigos ladrando y mordiendo.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 59,
+      "pok_name": "arcanine",
+      "pokedex_description": "Un majestuoso y legendario Pokémon. Es conocido por su velocidad y valentía.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 60,
+      "pok_name": "poliwag",
+      "pokedex_description": "La dirección de la espiral en su vientre difiere según la zona. Es más hábil nadando que caminando.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 61,
+      "pok_name": "poliwhirl",
+      "pokedex_description": "Su cuerpo está lleno de órganos que producen fluidos. El aroma especial de estos fluidos hace que otros Pokémon se relajen.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 62,
+      "pok_name": "poliwrath",
+      "pokedex_description": "Su cuerpo está lleno de músculos. Aún en estado de calma, puede arrojar puñetazos devastadores.",
+      "type_1": "Agua",
+      "type_2": "Lucha"
+    },
+    {
+      "num": 63,
+      "pok_name": "abra",
+      "pokedex_description": "El uso de su poder psíquico es una gran carga para su cerebro, por lo que necesita dormir 18 horas al día.",
+      "type_1": "Psíquico"
+    },
+    {
+      "num": 64,
+      "pok_name": "kadabra",
+      "pokedex_description": "Se dice que este Pokémon tiene una cuchara doblada con la mente. Se vuelve inestable cuando no duerme.",
+      "type_1": "Psíquico"
+    },
+    {
+      "num": 65,
+      "pok_name": "alakazam",
+      "pokedex_description": "Puede realizar cálculos matemáticos exactos con la ayuda de su cola. Dicen que es más inteligente que un supercomputador.",
+      "type_1": "Psíquico"
+    },
+    {
+      "num": 66,
+      "pok_name": "machop",
+      "pokedex_description": "Un luchador musculoso que aprende técnicas marciales de mirar a los demás. A menudo entrena en montañas.",
+      "type_1": "Lucha"
+    },
+    {
+      "num": 67,
+      "pok_name": "machoke",
+      "pokedex_description": "Posee músculos tan fuertes que nunca se cansan. Puede levantar pesas de más de mil kilos todos los días.",
+      "type_1": "Lucha"
+    },
+    {
+      "num": 68,
+      "pok_name": "machamp",
+      "pokedex_description": "Un experto en lucha que posee músculos fuertes y una gran fuerza. Puede lanzar diez golpes en un segundo.",
+      "type_1": "Lucha"
+    },
+    {
+      "num": 69,
+      "pok_name": "bellsprout",
+      "pokedex_description": "Prefiere lugares húmedos y oscuros. Puede atrapar y devorar a insectos y pequeños animales que se acercan.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 70,
+      "pok_name": "weepinbell",
+      "pokedex_description": "Cautiva a sus presas con su aroma agridulce y luego las atrapa con sus afiladas púas.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 71,
+      "pok_name": "victreebel",
+      "pokedex_description": "La trampa en forma de hoja que tiene en la boca le permite atrapar a sus presas y digerirlas lentamente.",
+      "type_1": "Planta",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 72,
+      "pok_name": "tentacool",
+      "pokedex_description": "Su cuerpo gelatinoso es casi transparente. Se alimenta de pequeños peces y plancton que atrapa con sus tentáculos.",
+      "type_1": "Agua",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 73,
+      "pok_name": "tentacruel",
+      "pokedex_description": "Posee 80 tentáculos largos y pegajosos. Se cree que este Pokémon proviene de un antiguo organismo marino.",
+      "type_1": "Agua",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 74,
+      "pok_name": "geodude",
+      "pokedex_description": "Se encuentra generalmente cerca de la montaña. Rompe las rocas con sus manos para buscar alimentos.",
+      "type_1": "Roca",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 75,
+      "pok_name": "graveler",
+      "pokedex_description": "A menudo se encuentra en montañas. Se agita suavemente cuando se acerca una tormenta eléctrica.",
+      "type_1": "Roca",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 76,
+      "pok_name": "golem",
+      "pokedex_description": "Su piel es tan dura que es inmune a todos los ataques, excepto explosiones. El aroma a magma le rodea cuando se enfada.",
+      "type_1": "Roca",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 77,
+      "pok_name": "ponyta",
+      "pokedex_description": "Es muy ágil y rápido. Dicen que si sientes su melena, te llevará buena suerte.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 78,
+      "pok_name": "rapidash",
+      "pokedex_description": "Es extremadamente rápido. Si siente calor, el fuego que arde en su cuerpo se intensifica.",
+      "type_1": "Fuego"
+    },
+    {
+      "num": 79,
+      "pok_name": "slowpoke",
+      "pokedex_description": "Vive en la orilla del agua. Se queda allí por la eternidad porque le da pereza nadar.",
+      "type_1": "Agua",
+      "type_2": "Psíquico"
+    },
+    {
+      "num": 80,
+      "pok_name": "slowbro",
+      "pokedex_description": "Su cola está llena de músculos. En lugar de huir, se enfrenta valientemente a los enemigos que se aproximan.",
+      "type_1": "Agua",
+      "type_2": "Psíquico"
+    },
+    {
+      "num": 81,
+      "pok_name": "magnemite",
+      "pokedex_description": "Genera un campo magnético a su alrededor. Se adhiere a maquinaria y causa mal funcionamiento eléctrico.",
+      "type_1": "Eléctrico",
+      "type_2": "Acero"
+    },
+    {
+      "num": 82,
+      "pok_name": "magneton",
+      "pokedex_description": "Se agrupan para generar un potente campo magnético. Es peligroso acercarse cuando están agrupados.",
+      "type_1": "Eléctrico",
+      "type_2": "Acero"
+    },
+    {
+      "num": 83,
+      "pok_name": "farfetch'd",
+      "pokedex_description": "Siempre lleva una rama verde en la boca. Parece que se la ha ganado como símbolo de valentía.",
+      "type_1": "Normal",
+      "type_2": "Volador"
+    },
+    {
+      "num": 84,
+      "pok_name": "doduo",
+      "pokedex_description": "Es capaz de correr a velocidades de hasta 60 millas por hora. Se cansa fácilmente debido a sus cabezas gemelas.",
+      "type_1": "Normal",
+      "type_2": "Volador"
+    },
+    {
+      "num": 85,
+      "pok_name": "dodrio",
+      "pokedex_description": "Tiene tres cabezas que operan independientemente. Pueden correr a altas velocidades y girar rápidamente.",
+      "type_1": "Normal",
+      "type_2": "Volador"
+    },
+    {
+      "num": 86,
+      "pok_name": "seel",
+      "pokedex_description": "Los adultos tienen cuernos grandes y afilados. Son fuertes nadadores y nadan a velocidades de hasta 60 millas por hora.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 87,
+      "pok_name": "dewgong",
+      "pokedex_description": "Su piel es tan resistente como el hielo. Sin embargo, se derrite si se encuentra en un lugar cálido durante demasiado tiempo.",
+      "type_1": "Agua",
+      "type_2": "Hielo"
+    },
+    {
+      "num": 88,
+      "pok_name": "grimer",
+      "pokedex_description": "Se alimenta de aguas residuales. El lodo que cubre su cuerpo es tan pegajoso que nada puede liberarse una vez atrapado.",
+      "type_1": "Veneno"
+    },
+    {
+      "num": 89,
+      "pok_name": "muk",
+      "pokedex_description": "Su color y olor desagradables tienen el efecto de hacer que los humanos y otros Pokémon se sientan mal de estómago.",
+      "type_1": "Veneno"
+    },
+    {
+      "num": 90,
+      "pok_name": "shellder",
+      "pokedex_description": "Se adhiere a la cola de Slowpoke. Se endurece rápidamente cuando se expone al agua.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 91,
+      "pok_name": "cloyster",
+      "pokedex_description": "La capa que cubre su cuerpo es más dura que el diamante. Se cree que evolucionó por la presión del agua a grandes profundidades.",
+      "type_1": "Agua",
+      "type_2": "Hielo"
+    },
+    {
+      "num": 92,
+      "pok_name": "gastly",
+      "pokedex_description": "Susurra palabras siniestras mientras ataca. Se alimenta de las emociones de terror que provoca en los demás.",
+      "type_1": "Fantasma",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 93,
+      "pok_name": "haunter",
+      "pokedex_description": "Le gusta esconderse en lugares oscuros y asustar a la gente. No puedes escapar de su abrazo fantasmal.",
+      "type_1": "Fantasma",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 94,
+      "pok_name": "gengar",
+      "pokedex_description": "Se dice que este Pokémon devora los sueños de quienes duermen a su lado. No hay antídoto contra su veneno.",
+      "type_1": "Fantasma",
+      "type_2": "Veneno"
+    },
+    {
+      "num": 95,
+      "pok_name": "onix",
+      "pokedex_description": "Es muy largo y se mueve como una serpiente. Tiene una debilidad por las gemas brillantes que resplandecen con luz.",
+      "type_1": "Roca",
+      "type_2": "Tierra"
+    },
+    {
+      "num": 96,
+      "pok_name": "drowzee",
+      "pokedex_description": "Si te encuentras fatigado o mareado, es probable que sientas su presencia. Se alimenta de los sueños y las pesadillas.",
+      "type_1": "Psíquico"
+    },
+    {
+      "num": 97,
+      "pok_name": "hypno",
+      "pokedex_description": "Cuando hipnotiza a alguien, tiene total control sobre la mente del sujeto. Puede hacer que la gente haga lo que quiera.",
+      "type_1": "Psíquico"
+    },
+    {
+      "num": 98,
+      "pok_name": "krabby",
+      "pokedex_description": "Caza presas con sus afiladas pinzas. Puede cortar fácilmente la cáscara de un árbol.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 99,
+      "pok_name": "kingler",
+      "pokedex_description": "Es conocido por su potente pinza derecha, que es más grande y más fuerte que la izquierda. Puede cortar un automóvil en dos.",
+      "type_1": "Agua"
+    },
+    {
+      "num": 100,
+      "pok_name": "voltorb",
+      "pokedex_description": "Se disfraza de una Pokébola para explotar sin previo aviso. Es peligroso estar cerca cuando comienza a brillar.",
+      "type_1": "Eléctrico"
+    }
+  ]
+  

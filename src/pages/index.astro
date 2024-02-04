@@ -1,0 +1,61 @@
+---
+import Poke from "../components/Poke.astro";
+import Layout from "../layouts/Layout.astro";
+
+let offset = Astro.url.searchParams.get("offset") || 0;
+offset = parseInt(offset);
+
+// executem consulta fetch a pokeapi, amb el offset necessari
+let llista = await fetch(
+`https://pokeapi.co/api/v2/pokemon?limit=20&offset=${offset}`,
+);
+
+let prev = `?offset=${offset === 0 ? 0 : offset - 20}`;
+let next = `?offset=${offset + 20}`;
+
+llista = await llista.json(); // convertim dades rebudes de json >> array en memòria (mena de parse)
+
+llista = llista.results;
+
+
+const promises = await llista.map(async (poke) => // creem un array de "promises" fent un nou fetch per cada pokemon per rebre més info
+{
+let item = await fetch(poke.url); // poke.url conté la url per obtenir 	més info del pokémon
+item = await item.json();
+return {
+name: poke.name,
+img: item.sprites.other["official-artwork"].front_default,
+order: item.id,
+types: item.types.map((x) => x.type.name)
+}; // retornem a la llista promises les dades extra per al pokemon (nom, imatge)
+});
+
+const pokemons = await Promise.all(promises); // finalment l'array pokemons ha d'esperar que es compleixin totes les promies (tots els awaits del map anterior)
+
+
+
+---
+
+<Layout title = "POKÈDEX">
+
+<div class="flex flex-wrap justify-center items-center m-5">
+	<div class ="gap-4 align-vertical grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 rounded-lg m-auto">
+		{
+			pokemons.map(e => 
+			<Poke name = {e.name} order = {e.order} img = {e.img} types = {e.types}></Poke>
+			)
+		}
+	</div>
+</div>
+
+
+
+<nav class="m-10 flex items justify-around">
+	<a href={prev} class="bg-sky-800 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-full">
+		Atrás </a>
+  
+	<a href={next} class="bg-sky-800 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-full">
+		Siguiente </a>
+</nav>
+
+</Layout>

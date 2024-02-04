@@ -1,0 +1,18 @@
+---
+const { name, img, types, order} = Astro.props;
+let rute = "/pokemon/"+name;
+---
+<div class="flex items justify-center">
+	<div class="border-solid border-1 border-blue-800 bg-white hover:bg-gray-200 p-3 rounded-lg w-70">
+
+		<a href={rute}>
+			<img class="w-60 bg-gray-200" src={img}>
+			<p class="font-light mb-2" >N.º 00{order}</p>
+		 	<h1 class = "flex justify-center items-center mb-4 mx-3 text-xl font-bold ">{name}</h1>
+			<h1 class="flex justify-center items-center my-1 p-2 bg-gray-600 text-white rounded-full">{types}</h1>
+		</a>
+	</div>
+</div>
+
+
+
