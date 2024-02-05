@@ -38,22 +38,25 @@ let altura = llista.height/10;
               }
               return null;
             })}
-            <h1 class="flex justify-center items-center my-1 bg-gray-800 text-white rounded-full">
-              {diccionario.map((pokemon) => {
-                if (pokemon.num === llista.id) {
-                  return (
-                    <p class="my-2  rounded-lg" key={pokemon.num}> Tipo:
-                      {pokemon.type_1}  {pokemon.type_2}
-                    </p>
-                    );
-              }
-              return null;
-            })}
+            <h1 class="flex justify-center items-center my-1 p-2 bg-gray-800 text-white rounded-full">
+            Tipo: {llista.types.map((tipo) => ( 
+
+            <span class="capitalize ml-2">
+            {tipo.type.name}
+            </span>
+            
+            ))}
 
             </h1>
+
             <h1 class="flex justify-center items-center my-1 bg-sky-800 text-white p-2 rounded-full">Peso: {peso} kg</h1>
             <h1 class="flex justify-center items-center my-1 bg-sky-800 text-white p-2 rounded-full">Altura: {altura} m</h1>
-            <h1 class="flex justify-center items-center my-1 bg-red-800 text-white p-2 rounded-full">Habilidades: {llista.abilities.map((x) => x.ability.name)}</h1>
+            <h1 class="flex justify-center items-center my-1 bg-red-800 text-white p-2 rounded-full">
+            Habilidades: {llista.abilities.map((x) => (
+            
+            <span class="capitalize ml-2">{x.ability.name}</span>
+            
+            ))}</h1>
             
             
           </div>

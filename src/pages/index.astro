@@ -26,7 +26,7 @@ return {
 name: poke.name,
 img: item.sprites.other["official-artwork"].front_default,
 order: item.id,
-types: item.types.map((x) => x.type.name)
+types: item.types,
 }; // retornem a la llista promises les dades extra per al pokemon (nom, imatge)
 });
 
